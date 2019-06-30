@@ -1,0 +1,20 @@
+"""第一天学习,大半时间弄怎么建立GitHub仓库和文件了"""
+
+print('hello,world')  #输出hello,world
+
+import this#介绍python
+
+#图形绘制
+import turtle
+turtle.pensize(4)#笔的粗细
+turtle.pencolor('red')#笔的颜色
+turtle.forward(100)#向前移动100
+turtle.right(90)#向右转90
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.mainloop()#启动事件循环，没有这个就只循环一次就关掉了
+#turtle模块的基本指令https://www.cnblogs.com/protogenoi/p/9038169.html
+
