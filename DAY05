@@ -1,0 +1,8 @@
+#水仙花数
+for i in range(100):
+    for j in range(100):
+        for x in range(100):
+            s=i*100+j*10+x
+            if(i*i*i+j*j*j+x*x*x==s and s<1000 and s>=100):
+                print(s)
+                print( )
